@@ -1,1 +1,5 @@
-console.log("Hello, this is the 9th");
+import '../styles/styles.css';
+
+if(module.hot) {
+    module.hot.accept();
+};
